@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://ahost2.bulbagarden.net/content/bulbagarden/images/bg-green-2x-optim.png'),
+    linear-gradient(180deg, #e5f1ec 0%, #e5f1ec 322px, #d1e5d9 322px) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.welcome {
+  margin-top: 20%;
+}
+
+.App {
+  text-align: center;
+}
+
+.buttons {
+  margin: 10px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.list {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.info-card {
+  background-image: url('./img/pokeball.png');
+  margin-top: 10%;
+  margin-left: 35%;
+  position: absolute;
+  border-radius: 10px;
+  padding: 2px 4px 3px;
+  display: flex;
+}
+
+.card {
+  margin: 4px;
+  padding: 5px;
+  width: 160px;
+  border: 2px solid black;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.txt {
+  margin-top: 10px;
+  margin-bottom: -15px;
+  padding: -10px;
+}
+
+.grass {
+  background-color: #78c850;
+}
+.water {
+  background-color: #6890f0;
+}
+.bug {
+  background-color: #a8b820;
+}
+.fighting {
+  background-color: #c03028;
+}
+.flying {
+  background-color: #a890f0;
+}
+.normal {
+  background-color: #a8a878;
+}
+.poison {
+  background-color: #a040a0;
+}
+.electric {
+  background-color: #f8d030;
+}
+.ground {
+  background-color: #b8a038;
+}
+.psychic {
+  background-color: #f85888;
+}
+.rock {
+  background-color: #b8a038;
+}
+.fire {
+  background-color: #f08030;
+}
+.ice {
+  background-color: #98d8d8;
+}
+.dragon {
+  background-color: #7038f8;
+}
+.ghost {
+  background-color: #705898;
+}
+.dark {
+  background-color: #705848;
+}
+.steel {
+  background-color: #b8b8d0;
+}
+.fairy {
+  background-color: #ee99ac;
+}
+.stat {
+  padding: 0 5px;
+  background-color: snow;
+  border: 1px solid black;
+}
+.poke-avatar {
+  background-color: snow;
+  border: 1px solid black;
+  border-radius: 30%;
+}
+.avatar {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: -1vh;
+  margin-left: 3vh;
+  justify-content: space-between;
+}
+
+.info-avatar {
+  width: 15vh;
+  background-color: snow;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 30%;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: snow;
+  border: 1px solid black;
+  width: 200px;
+}
+.types {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.name {
+  width: 100%;
+}
+.stats {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  border: 1px solid black;
+  background-color: snow;
+}
+.abilities {
+  width: 20vh;
+  border: 1px solid black;
+  background-color: snow;
+  margin-bottom: 2vh;
+}
+.single-type {
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
